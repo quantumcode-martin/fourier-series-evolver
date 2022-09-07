@@ -1,0 +1,31 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Training/TrainerMain.gd" type="Script" id=1]
+
+[node name="TrainerMain" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Population" type="Label" parent="."]
+margin_left = 15.0
+margin_top = 118.0
+margin_right = 87.0
+margin_bottom = 132.0
+text = "Population: 0"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Generation" type="Label" parent="."]
+margin_left = 15.0
+margin_top = 139.0
+margin_right = 99.0
+margin_bottom = 153.0
+text = "Generation:: 0"
+__meta__ = {
+"_edit_use_anchors_": false
+}

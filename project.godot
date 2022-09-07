@@ -1,0 +1,45 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=4
+
+_global_script_classes=[ {
+"base": "Node2D",
+"class": "Circle",
+"language": "GDScript",
+"path": "res://Circle.gd"
+} ]
+_global_script_class_icons={
+"Circle": ""
+}
+
+[application]
+
+config/name="FourierSeries"
+run/main_scene="res://Training/TrainerMain.tscn"
+config/icon="res://icon.png"
+
+[autoload]
+
+TimeManager="*res://TimeManager.gd"
+
+[display]
+
+window/size/width=1920
+window/size/height=1080
+window/dpi/allow_hidpi=true
+
+[physics]
+
+common/enable_pause_aware_picking=true
+
+[rendering]
+
+environment/default_clear_color=Color( 0.0745098, 0.0745098, 0.0745098, 1 )
+quality/filters/use_fxaa=true
+environment/default_environment="res://default_env.tres"
