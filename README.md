@@ -40,6 +40,15 @@ If a frequency is only in one of the parents, the child will have the frequency 
 
 # Coming Next ?
 With this first experiment, it was possible to see the effect of selection on the fourier series. By doing some wise selection, it is possible to end up with a population featuring individuals that share a common visual characteristic.
+As an example, you can try to draw some tiny fishes.
+
+
 But it still has some limitations, and could be improved to draw more complex shapes, by experimenting and trying different methods for the genetic algorithm.
+
+The difficult part will be to find a way (if there is one) to evolve the Fourier's coefficients without changing too much the shape.
+Because right now things are quickly getting out of hand !
+
+
+<img align="center" src="./images/outofhand.PNG" />
 
 You are welcome to contribute in any way !
