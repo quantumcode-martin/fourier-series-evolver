@@ -49,6 +49,6 @@ The difficult part will be to find a way (if there is one) to evolve the Fourier
 Because right now things are quickly getting out of hand !
 
 
-<img align="center" src="./images/outofhand.PNG" />
+<img align="center" src="./images/outofhand.png" />
 
 You are welcome to contribute in any way !
